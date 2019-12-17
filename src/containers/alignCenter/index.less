@@ -1,0 +1,21 @@
+.box {
+  border: 2px solid lightcoral;
+}
+.parent {
+  width: 500px;
+  text-align: center;
+  &::after {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    width: 0;
+    vertical-align: middle;
+  }
+}
+.child {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: lightblue;
+}

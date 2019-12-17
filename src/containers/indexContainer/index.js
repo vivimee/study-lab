@@ -17,9 +17,9 @@ export default class AContainer extends Component {
 
   render() {
     return (
-      <div>
-        <h3>hello world ～ Index</h3>
-        <button onClick={this.doSomething} type="button">button</button>
+      <div className="view-root box ">
+        <div className="box float">float</div>
+        <div className="message">你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊</div>
       </div>
     );
   }

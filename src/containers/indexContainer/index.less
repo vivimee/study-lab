@@ -2,4 +2,38 @@ html, body {
     margin: 0;
     padding: 0;
     color: #333;
+    font-size: 14px;
+}
+
+.view-root {
+    // display: flow-root;
+    // display: flex;
+    // overflow: hidden;
+    .message {
+        // margin: 0 0 0 220px;
+        overflow: hidden;
+
+        // white-space: nowrap;
+        // text-overflow: ellipsis;
+
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+    }
+}
+.float {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.box {
+    border: 2px solid lightcoral;
+}
+
+.clear-float {
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
 }
