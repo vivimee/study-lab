@@ -74,13 +74,13 @@ export default {
                 exclude: /node_modules/,
                 use: [
                     'babel-loader',
-                    {
-                        loader: 'eslint-loader',
-                        options: {
-                            enforce: 'pre',
-                            fix: true,
-                        },
-                    },
+                    // {
+                    //     loader: 'eslint-loader',
+                    //     options: {
+                    //         enforce: 'pre',
+                    //         fix: true,
+                    //     },
+                    // },
                 ],
             },
             {

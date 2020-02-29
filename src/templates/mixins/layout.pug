@@ -9,8 +9,10 @@ mixin layout($title, $keywords, $description)
             - if ($description)
                 meta(description=$description)
             meta(name="viewport" content="width=device-width")
+            link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap")
+            link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
             style
                 include ../../assets/style.css
             script
-                include ../../assets/js/rem.js
+                //- include ../../assets/js/rem.js
         body
