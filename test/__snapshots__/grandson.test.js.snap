@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GrandSon should has name and age 1`] = `
+<div>
+  <p>
+    this is GrandSon. GrandParent name: 
+    .
+  </p>
+  <p>
+    20
+    -
+  </p>
+</div>
+`;
