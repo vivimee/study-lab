@@ -1,6 +1,6 @@
 import React from 'react';
-// import EventEmmiter from './EventEmmiter';
-import EventEmmiter from 'eventemitter10';
+import EventEmmiter from './EventEmmiter';
+// import EventEmmiter from 'eventemitter10';
 
 const EE = new EventEmmiter();
 
