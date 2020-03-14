@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { AgeConsumer } from "../..";
+import { AgeConsumer } from "../ContextDemo";
 
 class GrandSon extends Component {
   static contextTypes = {

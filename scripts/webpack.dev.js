@@ -18,7 +18,6 @@ const devConfig = {
 };
 const webpackConfig = merge(webpackBaseConfig, devConfig);
 const devServerOptions = {
-    contentBase: './dist',
     publicPath: '/',
     host: ipString,
     hot: true,
